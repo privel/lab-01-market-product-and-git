@@ -9,29 +9,27 @@ To kickstart the course, you will explore two things:
 
 By the end of this lab you should be able to:
 
+- Use GitHub to structure your work and collaborate with peers (issues, branches, pull requests, and reviews).
 - Explain the basic architecture of a real-world digital product in terms of components, data flow, and deployment.
-- Identify which tech roles work on which parts of that product, and which general skills are shared across roles.
-- Use GitHub issues, branches, and pull requests to structure your work and get a peer review.
+- Reflect on your career in tech, examine your current skillset, and plan for the future.
 
 ## Tasks overview
 
 To complete this lab, you will need to:
-
+- Setup your github account and this lab's repo.
 - Pick an existing digital product.
 - Sketch its architecture: components, data flow, deployment.
 - Map components to tech roles and skills using real job postings and `roadmap.sh`.
 - Practice using GitHub issues, branches and pull requests (PRs) to organize your work in a repository (repo) and get feedback from peers.
 
-This and all other lab assignments will simulate the engineering practices in a real team:
-
+This and all other lab assignments will simulate real-life engineering practices:
 - Follow processes;
 - Communicate via issues/PRs;
 - Keep the work reviewable;
-- Practice writing acceptance criteria;
+- Write acceptance criteria;
 - Write clear commit messages.
 
 ## Repo structure
-
 - `.github/ISSUE_TEMPLATE` – templates for your issues.
 - `.github/pull_request_template.md` – a template for PRs.
 
@@ -39,6 +37,7 @@ This and all other lab assignments will simulate the engineering practices in a 
 
 ## Lab setup
 
+### Set up a fork
 1. Create a GitHub account.
 2. Fork this repo to your GitHub account.
 3. Continue your work in the forked repo.
@@ -47,6 +46,7 @@ This and all other lab assignments will simulate the engineering practices in a 
    1. Click `New label`.
    2. Name: `task`.
    3. Click `Create label`.
+    <!-- TODO ask students to provide a proof of the setup -->
 6. In the repo Settings -> Code and automation -> Add branch ruleset:
    1. Ruleset Name: `push`
    2. Enforcement status: `Active`
@@ -58,8 +58,13 @@ This and all other lab assignments will simulate the engineering practices in a 
          - Require conversation resolution before merging
          - Allowed merge methods: `Merge`.
       - [x] Block force pushes
-7. In the repo Settings -> Collaborators -> Add people, add a classmate as a collaborator.
+
+### Add a classmate as a collaborator
+
+7. In the repo `Settings` -> `Collaborators` -> `Add people`, add a classmate as a collaborator.
 8. Make sure your collaborator have accepted the invitation sent to their email.
+
+### Set up your local tools
 
 9. (If needed) On your computer, configure [`git`](https://git-scm.com/):
 
@@ -68,7 +73,9 @@ This and all other lab assignments will simulate the engineering practices in a 
     git config --global user.email "your@email"
     ```
 
-10. Install [`VS Code`](https://code.visualstudio.com/) and read about:
+10. Install [`VS Code`](https://code.visualstudio.com/). This is our code editor of choice that we'll use in this course.
+    <!-- TODO: Add a screenshot with all key elements marked. -->
+    Optionally, you can learn more about it:
     - [Basic Layout](https://code.visualstudio.com/docs/getstarted/userinterface#_basic-layout).
     - [Activity Bar](https://code.visualstudio.com/api/ux-guidelines/activity-bar)
     - [Command Palette](https://code.visualstudio.com/docs/getstarted/userinterface#_command-palette)
@@ -76,6 +83,8 @@ This and all other lab assignments will simulate the engineering practices in a 
     - [Source Control](https://code.visualstudio.com/docs/sourcecontrol/overview).
     - [Extension Marketplace](https://code.visualstudio.com/docs/configure/extensions/extension-marketplace).
     - How to enable [`files.autoSave`](https://code.visualstudio.com/docs/editing/codebasics#_save-auto-save) and [`editor.formatOnSave`](https://code.visualstudio.com/docs/editing/codebasics#_formatting).
+
+### Open the repository on your machine
 11. On your computer, create a directory `pre-swp`.
 12. In that directory, clone the lab repo.
 
@@ -90,16 +99,15 @@ This and all other lab assignments will simulate the engineering practices in a 
     code lab-01-market-product-and-git
     ```
 
+### Set up VS Code extensions
 14. Install the recommended VS Code extensions (listed in `./.vscode/extensions.json`) when VS Code suggests to install them.
 15. Sign in to accounts.
-
     In the Activity Bar:
-
     1. Click `Accounts`
-    2. Click `Sign in with GitHub to use GitLens ...`
-    3. Click `Accounts`
-    4. Click `Sign in with GitHub to use GitHub Pull Requests ...`.
+    2. Click `Sign in with GitHub`
+    3. Repeat for any of the extensions if neeeded.
 
+<!-- TODO: move all gitlens related points to extra section (recommendations) -->
 16. Check GitLens.
 
     In the Activity Bar:
@@ -110,8 +118,10 @@ This and all other lab assignments will simulate the engineering practices in a 
     4. In the `GitLens` panel, click `Commits`.
     5. Make sure you can see commits to this repo.
 
+### Set up an agent
 17. Set up [Kilo Code](https://kilo.ai/install) with Qwen3 Coder (watch [tutorial](https://www.youtube.com/watch?v=G0uIVEt3aj4)) or another [free model](https://openrouter.ai/collections/free-models).
 
+### Skim the lab description
 18. Skim this `README.md` file once so you know what’s coming.
 
 ---

@@ -1,5 +1,6 @@
 {
   "recommendations": [
+    // need for this lab
     "bierner.markdown-checkbox",
     "bierner.markdown-emoji",
     "bierner.markdown-footnotes",
@@ -7,13 +8,26 @@
     "bierner.markdown-preview-github-styles",
     "DavidAnson.vscode-markdownlint",
     "eamodio.gitlens",
-    "github.copilot-chat",
-    "github.github-vscode-theme",
-    "github.vscode-github-actions",
-    "github.vscode-pull-request-github",
-    "gruntfuggly.todo-tree",
-    "hediet.vscode-drawio",
     "jebbs.plantuml",
+    
+    // review pull requests
+    "github.vscode-pull-request-github",
+    
+    // ## Need for this course
+    
+    // 
+    "github.vscode-github-actions",
+    
+    // ## Useful, optional
+    
+    // show inline errors and warnings
+    "usernamehw.errorlens",
+    
+    // outline TODOs in files
+    "gruntfuggly.todo-tree",
+    
+    "github.copilot-chat",
+    "hediet.vscode-drawio",
     "kilocode.kilo-code",
     "ms-vscode-remote.remote-ssh-edit",
     "ms-vscode-remote.remote-ssh",
@@ -25,7 +39,6 @@
     "systemticks.c4-dsl-extension",
     "takumii.markdowntable",
     "timonwong.shellcheck",
-    "usernamehw.errorlens",
     "yzhang.markdown-all-in-one"
   ]
 }
