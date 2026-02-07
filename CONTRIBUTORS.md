@@ -1,6 +1,8 @@
 # Contributors
 
 Students who completed this lab:
+@privel
+@Berezhnoy-Sergey
 
 <!--
 Add your GitHub username under this comment when you work on the Task 0.
