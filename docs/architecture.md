@@ -14,7 +14,7 @@
 
 ![Telegram Component Diagram](./diagrams/out/telegram/component-diagram/Component%20Diagram.svg)
 
-**PlantUML code:** [Telegram Component Diagram Code](./diagrams/src/telegram/component-diagram/component-diagram.puml)
+**PlantUML code:** [Telegram Component Diagram Code](./diagrams/src/telegram/component-diagram.puml)
 
 ### Selected components (from the diagram)
 
@@ -45,7 +45,7 @@
 
 ![Telegram Sequence Diagram](./diagrams/out/telegram/sequence-diagram/Sequence%20Diagram.svg)
 
-**PlantUML code:** [Telegram Sequence Diagram Code](./diagrams/src/telegram/sequence-diagram/sequence-diagram.puml)
+**PlantUML code:** [Telegram Sequence Diagram Code](./diagrams/src/telegram/sequence-diagram.puml)
 
 ### Chosen group of actions: “Media file upload & propagation” (upload + notify flow)
 
@@ -65,7 +65,7 @@ In this flow, the **mobile client** uploads a media file and Telegram propagates
 
 ![Telegram Deployment Diagram](./diagrams/out/telegram/deployment-diagram/Deployment%20Diagram.svg)
 
-**PlantUML code:** [Telegram Deployment Diagram Code](./diagrams/src/telegram/deployment-diagram/deployment-diagram.puml)
+**PlantUML code:** [Telegram Deployment Diagram Code](./diagrams/src/telegram/deployment-diagram.puml)
 
 ### Where components are deployed (briefly)
 
