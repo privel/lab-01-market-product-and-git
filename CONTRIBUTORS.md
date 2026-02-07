@@ -2,7 +2,7 @@
 
 Students who completed this lab:
 
-@Berezhnoy-Sergey
+@privel
 
 <!--
 Add your GitHub username under this comment when you work on the Task 0.
