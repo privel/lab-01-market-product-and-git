@@ -1,7 +1,7 @@
 # Contributors
 
 Students who completed this lab:
-@privel
+
 @Berezhnoy-Sergey
 
 <!--
